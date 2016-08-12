@@ -1,0 +1,109 @@
+/* Tu CSS va aqui */
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.navbar {
+	background-color: #fff;
+	margin-bottom: 0;
+}
+.opt {
+	font-weight: bold;
+}
+.opt:hover {
+	color: #F05F40 !important;
+}
+.titulo {
+	color: #F05F40 !important;
+	font-weight: bold;
+}
+/*secciones*/
+.bg-1 {
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 8%;
+	color: #fff;
+	text-align: center;
+}
+.name {
+	color: #fff;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+.line {
+	width: 10%;
+	border: 1px solid #F05F40;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.white {
+	border: 1px solid #fff;
+}
+.boton {
+	border-radius: 20px;
+	background-color: #F05F40;
+	border: #F05F40;
+	color: #fff;
+	margin-top: 3%;
+}
+.boton:hover {
+	background-color: #FF4000;
+	color: #fff;
+}
+
+.bg-2 {
+	background-color: #F05F40;
+	color: #fff;
+	padding: 5%;
+}
+.foto {
+	max-width: 100%;
+	padding-left: 0;
+}
+.parrafo {
+	font-size: 17px;
+	margin-bottom: 4%;
+	padding: 0% 10%;
+	text-align: center;
+}
+/*servicios*/
+.server {
+	text-align: center;
+	padding: 5%;
+}
+.box-ico {
+	padding: 4% 1%;
+}
+.ico {
+	color: #F05F40;
+	font-size: 3em;
+}
+.bg-3 {
+	background-color: #222222;
+	color: #fff;
+	padding: 5%;
+	text-align: center;
+}
+.git {
+	border-radius: 20px;
+	background-color: #fff;
+	border: #fff;
+	color: #000;
+	margin-top: 3%;
+}
+.git:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.contac-ico {
+	font-size: 2em;
+}
+
+footer {
+	padding: 7%;
+}
